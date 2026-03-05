@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather Forecast</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!----Nav----->
+
+<header>
+    <h1>Weather Forecast</h1>
+    <div id="themeToggle">🌙</div>
+</header>
+
+<!------search section------->
+
+<section class="hero">
+    <h2>Check Your Weather</h2>
+    <div class="search-box">
+        <input type="text" id="cityInput" placeholder="Enter city name...">
+        <button id="searchBtn">Search</button>
+    </div>
+    <p id="errorMessage"></p>
+</section>
+
+<section id="currentWeather" class="weather-section"></section>
+
+<!----Forecast section-------->
+
+<section class="forecast-section">
+    <h2>5-Day Forecast</h2>
+    <div id="forecastContainer" class="forecast-container"></div>
+</section>
+
+<!---------Map section ------------>
+
+<section class="map-section">
+    <h2>Location Map</h2>
+    <iframe id="mapFrame"></iframe>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
