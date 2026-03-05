@@ -31,5 +31,16 @@ A responsive Weather Forecast Website built using HTML, CSS, and JavaScript that
 5. OpenStreetMap 
 
 
+# GitHub link
+
+https://github.com/ayusmitatarai-29/Weather-Forecast-Website
+
+# Live Link 
+
+https://ayusmitatarai-29.github.io/Weather-Forecast-Website/
+
+
+Ayusmita Tarai
+
 
 
